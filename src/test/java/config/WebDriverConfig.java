@@ -9,7 +9,7 @@ import org.aeonbits.owner.Config;
 public interface WebDriverConfig extends Config {
 
     @Key("baseUrl")
-    @DefaultValue("http://axeta.ru/")
+    @DefaultValue("https://allure.autotests.cloud")
     String baseUrl();
 
     @Key("browser")
